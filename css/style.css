@@ -1,0 +1,187 @@
+body{
+	padding:0px;
+}
+
+/* Header area Start */
+
+.header-area{
+	background-color:#9933CC;
+	height:100px;
+	width:100%;
+}
+
+/* Header area End */
+
+/* Second area Start */
+
+.main-menu-area{
+	width:78%;
+	margin:10px 0px 0px 10px;
+	float:left;
+}
+
+.main-menu-area .first-menu{
+	background-color:#33B5E5;
+	height:40px;
+	width:30%;
+	margin:0px 0px 0px 0px;
+}
+
+.main-menu-area .second-menu{
+	background-color:#33B5E5;
+	height:40px;
+	width:30%;
+	margin:10px 0px;
+}
+
+.main-menu-area .third-menu{
+	background-color:#33B5E5;
+	height:40px;
+	width:30%;
+	margin:10px 0px;
+}
+
+.main-menu-area .fourth-menu{
+	background-color:#33B5E5;
+	height:40px;
+	width:30%;
+	margin:10px 0px 0px;
+}
+
+/* Second area End */
+
+
+/* Third area Start */
+
+.third-area{
+	background-color:#33B5E5;
+	height:425px;
+	width:20%;
+	overflow:hidden;
+	margin:10px 0px
+}
+
+/* Third area End */
+
+
+/* Footer area Start */
+
+.footer-area{
+	background-color:#0099CC;
+	height:70px;
+	padding:10px 0px;
+}
+
+/* Footer area End */
+
+/* Responsive Design Start */ 
+
+/* Tablet Responsive Design Start */
+
+@media only screen and (max-width:768px){
+	
+	.header-area{
+	height:70px;
+	width:100%;
+	margin-bottom:10px;
+}
+	
+	.main-menu-area{
+	width: 100%;
+	margin: 5px 0px 0px 10px;
+}
+
+
+.main-menu-area .first-menu{
+	height: 25px;
+	width: 15%;
+	margin:0px 0px 0px 0px;
+}
+
+.main-menu-area .second-menu{
+	height: 25px;
+	width: 15%;
+	margin:10px 0px;
+}
+
+.main-menu-area .third-menu{
+	height: 25px;
+	width: 15%;
+	margin:0px 0px 0px 0px;
+}
+
+.main-menu-area .fourth-menu{
+	height: 25px;
+	width: 15%;
+	margin:10px 0px 100vh 0px;
+}
+	
+	.third-area{
+	height:90px;
+	width:90%;
+	overflow:hidden;
+	margin:auto;
+}
+
+.footer-area{
+	height:50px;
+	margin-top:15px;
+}
+	
+}
+
+
+/* Tablet Responsive Design End */
+
+
+/* Mobile Responsive Design Start */
+
+@media only screen and (max-width: 425px){
+	.main-menu-area{
+	width: 100%;
+	margin: 15px 0px 0px 10px;
+}
+
+.main-menu-area .first-menu{
+	height: 25px;
+	width: 95%;
+	margin:0px 0px 0px 0px;
+}
+
+.main-menu-area .second-menu{
+	height: 25px;
+	width: 95%;
+	margin:5px 0px 0px 0px;
+}
+
+.main-menu-area .third-menu{
+	height: 25px;
+	width: 95%;
+	margin:5px 0px 0px 0px;
+}
+
+.main-menu-area .fourth-menu{
+	height: 25px;
+	width: 95%;
+	margin:5px 0px 100vh 0px;
+}
+
+	.third-area{
+	height: 80px;
+	width:90%;
+	overflow:hidden;
+	margin:auto;
+}
+
+
+.footer-area{
+	margin-top:15px;
+}
+	}
+
+
+
+/* Mobile Responsive Design End */
+
+
+/* Responsive Design End */ 
